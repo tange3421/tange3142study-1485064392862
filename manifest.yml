@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: tange3142study
+  host: tange3142study
+  disk_quota: 1024M
+  services:
+  - Tradeoff Analytics-hl
